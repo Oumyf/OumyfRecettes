@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22471538816",
+    "project_id": "oumyfrecettes",
+    "storage_bucket": "oumyfrecettes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22471538816:android:518d994369744b49438e65",
+        "android_client_info": {
+          "package_name": "com.oumyfrecettes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdRXORt4LYp7cGr3LL3SpA13A0JEnakM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
