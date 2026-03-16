@@ -1,0 +1,83 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+/* Barre de recherche */
+.search-input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 999px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #f97316;
+}
+
+/* Barre de catégories */
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;
+}
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.categories button {
+  padding: 0.4rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 999px;
+  background: white;
+  color: #111827;
+  cursor: pointer;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+
+.categories button:hover {
+  border-color: #f97316;
+  color: #f97316;
+}
+
+.categories button.active {
+  background: #f97316;
+  border-color: #f97316;
+  color: white;
+  font-weight: bold;
+}
+
+/* Grille de recettes */
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.empty {
+  text-align: center;
+  color: #9ca3af;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
