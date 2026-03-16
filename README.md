@@ -1,8 +1,28 @@
 # OumyfRecettes
-Application web de gestion de recettes.
+
+Monorepo de l'application OumyfRecettes.
+
+## Structure
+
+- `src/`, `public/` : application web Vite/React
+- `api/` : backend Strapi
+- `mobile/` : application mobile Expo / React Native
 
 ## Démarrage
 
-1. Installer les dépendances: `npm install`
-2. Lancer en développement: `npm run dev`
-3. Build production: `npm run build`
+### Web
+
+1. `npm install`
+2. `npm run dev`
+
+### API
+
+1. `cd api`
+2. `npm install`
+3. `npm run develop`
+
+### Mobile
+
+1. `cd mobile`
+2. `npm install`
+3. `npx expo start`
